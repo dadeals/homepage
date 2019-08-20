@@ -1,7 +1,9 @@
 import React from 'react';
-import Show from './Components/TreeStructure'
+import Show from './Components/Show'
 import HomePage from './Components/HomePage'; 
 import Query from './Components/Query';
+import Contact from './Components/contact';
+import logo from './Components/logo307105.jpg';
 import './Css/App.css';
 import 'antd/dist/antd.css';
 import { Layout, Menu, Breadcrumb, Input } from 'antd';
@@ -49,31 +51,32 @@ class App extends React.Component {
         <div className = "App" >
         <Layout className="layout">
           <Header>
-            <div className="logo" />
+            <div className="logo"  />
             
-            <Menu
-              theme="dark"
-              mode="horizontal"
-              defaultSelectedKeys={['1']}
-              style={{ lineHeight: '64px' }}
-            >
-              
-              <Menu.Item key="1"><Link to= "/">Home</Link></Menu.Item>
-              <Menu.Item key="2"><Link to= "/Show">Show</Link></Menu.Item>
-              <Menu.Item key="3"><Link to= "/Query">Query</Link></Menu.Item>
-            </Menu>
           </Header>
           
           <Content style={{ padding: '0 50px' }}>
 
-            <Breadcrumb itemRender={itemRender} routes={routes} style={ {margin: '16px 0'} } />
+            {/* <Breadcrumb itemRender={itemRender} routes={routes} style={ {margin: '16px 0'} } /> */}
+            <Menu
+              theme="light"
+              mode="horizontal"
+              defaultSelectedKeys={['1']}
+              style={{ lineHeight: '64px' }}
+            >
+              <Menu.Item key="0" ><img src = {logo} style={{  width: 102, height: 35, lineHeight: '64px' }} /></Menu.Item>
+              <Menu.Item key="1" ><Link to= "/">Home</Link></Menu.Item>
+              <Menu.Item key="2"><Link to= "/Show">Show</Link></Menu.Item>
+              <Menu.Item key="3"><Link to= "/Query">Query</Link></Menu.Item>
+            </Menu>
+            
             <div className= "wrap">
               <Route path="/" exact component={HomePage} />
               <Route path="/Show/" component={Show} />
               <Route path="/Query/" component={Query} />
             </div>
           </Content>
-          <Footer style={{ textAlign: 'center' }}>Ant Design ©2018 Created by Ant UED</Footer>
+          <Footer style={{ textAlign: 'left' }}><Contact></Contact></Footer>
         </Layout>
 
         

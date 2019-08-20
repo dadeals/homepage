@@ -3,6 +3,7 @@
 .App {
   /* text-align: center; */
   height: 100%;
+  
 }
 
 .App .layout{
@@ -13,10 +14,31 @@
   color: #61dafb;
 }
 
+.App .ant-layout-header{
+  background: #d4c8be; 
+}
+
+.App .ant-layout-header .ant-menu{
+  background: #fff; 
+  
+}
+
+.App .ant-layout-content {
+  background: #fff; 
+
+}
+
+.App .ant-layout-footer{
+  background: #fff; 
+  height:150px;
+
+}
+
+
 .App .ant-layout-content .wrap{
   background: #fff; 
   padding: 24px;
-  height:100%;
+  /* height:100%; */
 }
 
 
