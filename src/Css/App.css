@@ -1,0 +1,30 @@
+@import '~antd/dist/antd.css';
+
+.App {
+  /* text-align: center; */
+  height: 100%;
+}
+
+.App .layout{
+  height: 100%;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App .ant-layout-content .wrap{
+  background: #fff; 
+  padding: 24px;
+  height:100%;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
