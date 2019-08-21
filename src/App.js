@@ -7,7 +7,7 @@ import logo from './Components/logo307105.jpg';
 
 import './Css/App.css';
 import 'antd/dist/antd.css';
-import { Layout, Menu} from 'antd';
+import { Layout, Menu, Drawer, Button} from 'antd';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 const { Header, Content, Footer } = Layout;
@@ -17,19 +17,32 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      time:new Date()
+      time:new Date(),
+      visible: false, 
+        placement: 'bottom',
     };
     setInterval(function(){
  
       this.setState({
 
-          time:new Date()
-
+          time:new Date(),
       });
 
       }.bind(this),1000);
   }
 
+
+  showDrawer = () => {
+    this.setState({
+      visible: true,
+    });
+  };
+
+  onClose = () => {
+    this.setState({
+      visible: false,
+    });
+  };
 
   render() {
 
@@ -42,7 +55,7 @@ class App extends React.Component {
             
           </Header>
           
-          <Content style={{ padding: '0 50px' }}>
+          <Content style={{  padding: '0 50px' }}>
 
             <Menu
               theme="light"
@@ -53,7 +66,7 @@ class App extends React.Component {
 
               <Menu.Item key="1" ><Link to= "/"><img src = {logo} style={{  width: 102, height: 35, lineHeight: '64px' }} /></Link></Menu.Item>
               <Menu.Item key="2"><Link to= "/ProductList">ProductList</Link></Menu.Item>
- 
+              <Menu.Item key="3" onClick={this.showDrawer}>Contact</Menu.Item>
               
             </Menu>
 
@@ -65,9 +78,19 @@ class App extends React.Component {
           </Content>
 
           <Footer style={{ textAlign: 'left' }}>
-
-            <Contact></Contact>
-            </Footer>
+            <Drawer
+              title="Contact Info"
+              placement= 'bottom'
+              closable={false}
+              onClose={this.onClose}
+              visible={this.state.visible}
+            >
+              <Contact></Contact>
+            </Drawer>
+              
+          </Footer>
+          
+          
         </Layout>
 
         

@@ -24,22 +24,23 @@
 }
 
 .App .ant-layout-content {
+  padding: 0px 50px;
   background: #fff; 
-
+ 
+  
 }
 
 .App .ant-layout-footer{
   background: #fff; 
-  height:150px;
+  height:12%;
 
 }
 
 
 .App .ant-layout-content .wrap{
   background: #fff; 
-  height: 1000px;
   padding: 24px;
-  
+  height:100%;
 
 }
 

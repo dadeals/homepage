@@ -8,7 +8,7 @@ class contact extends React.Component {
     }
     render() {
         return (
-            <Descriptions title="Contact Info" layout="vertical">
+            <Descriptions  layout="horizontal">
                 <Descriptions.Item label="OwnerName">Cathy Cao</Descriptions.Item>
                 <Descriptions.Item label="Contact Number">04 5770177</Descriptions.Item>
                 <Descriptions.Item label="Address">
