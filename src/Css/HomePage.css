@@ -1,17 +1,14 @@
 .welcome{
-    text-align: center;
+    text-align: left;
     
 }
 
-.welcome .login-form {
-    max-width: 300px;
-    margin:100px auto;
-  }
+.welcome .clock{
+  text-align: right;
+  
+}
 
-.welcome .login-form-forgot {
-    float: right;
-  }
-
-.welcome .login-form-button {
-    width: 100%;
-  }
+.welcome .wrap{
+  text-align: center;
+  
+}

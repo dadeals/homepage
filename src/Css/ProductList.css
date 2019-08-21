@@ -1,0 +1,17 @@
+.product {
+   height:100%;
+
+}
+
+.product .content{
+    height:98%;
+}
+
+.product .ant-pagination{
+    text-align: center;
+    position: relative;
+    
+  
+
+}
+
