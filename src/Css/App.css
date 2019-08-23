@@ -3,11 +3,12 @@
 .App {
 
   height: 100%;
-  
+ 
 }
 
 .App .layout{
   height: 100%;
+  
 }
 
 .App-link {
@@ -15,7 +16,9 @@
 }
 
 .App .ant-layout-header{
-  background: #d4c8be; 
+  background: #d4c8be url('../Pics/testfront.jpg'); 
+  height:30%;
+  background-size:cover
 }
 
 .App .ant-layout-header .ant-menu{
@@ -24,22 +27,24 @@
 }
 
 .App .ant-layout-content {
-  padding: 0px 50px;
-  background: #fff; 
+  padding: 0px 15px;
+  background: #fff ;
+  height:65%; 
+  
  
   
 }
 
 .App .ant-layout-footer{
   background: #fff; 
-  height:12%;
+  height:5%;
 
 }
 
 
 .App .ant-layout-content .wrap{
   background: #fff; 
-  padding: 24px;
+  padding: 5px;
   height:100%;
 
 }

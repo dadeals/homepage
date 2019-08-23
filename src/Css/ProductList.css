@@ -1,9 +1,10 @@
 .product {
    height:100%;
-
+    
 }
 
-.product .content{
+.product .warp .content{
+    
     height:98%;
 }
 
@@ -15,3 +16,8 @@
 
 }
 
+
+img{
+    height: 180px;
+    width: 180px;
+}

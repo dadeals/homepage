@@ -1,34 +1,39 @@
 import React from 'react';
 import { PageHeader, Typography } from 'antd';
 import '../Css/HomePage.css';
+import { createRequireFromPath } from 'module';
 
-const { Paragraph } = Typography;
+const { Paragraph,Title, Text } = Typography;
 
 
 const content = (
     <div className="content">
-      <Paragraph>
-        Today's promotion
-      </Paragraph>
-  
-      <p className="contentLink">
-       
-        <a>
-          <img src="https://gw.alipayobjects.com/zos/rmsportal/NbuDUAuBlIApFuDvWiND.svg" alt="info" />
-          Product Info
-        </a>
-        
-      </p>
+      <br></br>
+      
+      <Text strong>All kinds of clothings and head flowers. You will also able to find many cheap craft supplies here! Come shop you bargains here today!</Text>
+      {/* <div className="contentPic">
+        <img src={require('../Pics/shopfront.jpg')} />
+ 
+      </div> */}
     </div>
   );
 
   const extraContent = (
-    <img
-      src="https://gw.alipayobjects.com/mdn/mpaas_user/afts/img/A*KsfVQbuLRlYAAAAAAAAAAABjAQAAAQ/original"
+    <div className ="newproduct">
+      <br></br>
+      <Text mark>NEW PRODUCTS!!</Text> 
+      <Text strong> handmade necklaces $25 - $30</Text>
+      <img
+      src= {require('../Pics/necklaces.jpg')}
       alt="content"
+      style={{ width: 240 }}
     />
+
+
+    </div>
+    
   );
- 
+
 
 class Homepage extends React.Component {
 
@@ -54,8 +59,8 @@ class Homepage extends React.Component {
     
     return (
       <div className="welcome">
-        
-        <PageHeader title="Welcome to DaDeals NaeNae" >
+        <br></br>
+        <Title level={3}  >Welcome to DaDeals NaeNae</Title>
             <div className="clock">{this.state.time.toLocaleDateString()} {this.state.time.toUTCString()}</div>
               <div className="wrap">
                   <div className="content">{content}</div>
@@ -63,7 +68,7 @@ class Homepage extends React.Component {
                   
             </div>
                 
-         </PageHeader>
+        
 
       </div>
 

@@ -1,9 +1,8 @@
 import React from 'react';
-
 import HomePage from './Components/HomePage'; 
 import ProductList from './Components/ProductList'
 import Contact from './Components/contact';
-import logo from './Components/logo307105.jpg';
+import logo from './Pics/logo307105.jpg';
 
 import './Css/App.css';
 import 'antd/dist/antd.css';
@@ -55,7 +54,7 @@ class App extends React.Component {
             
           </Header>
           
-          <Content style={{  padding: '0 50px' }}>
+          <Content >
 
             <Menu
               theme="light"
@@ -77,8 +76,7 @@ class App extends React.Component {
             </div>
           </Content>
 
-          <Footer style={{ textAlign: 'left' }}>
-            <Drawer
+          <Drawer
               title="Contact Info"
               placement= 'bottom'
               closable={false}
@@ -87,8 +85,6 @@ class App extends React.Component {
             >
               <Contact></Contact>
             </Drawer>
-              
-          </Footer>
           
           
         </Layout>

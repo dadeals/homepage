@@ -1,5 +1,5 @@
 .welcome{
-    text-align: left;
+    text-align: center;
     
 }
 
@@ -10,5 +10,16 @@
 
 .welcome .wrap{
   text-align: center;
+  
+}
+
+.welcome .content{
+  font-size: 1rem;
+  
+}
+
+.welcome .content .contentPic{ 
+  font-size: 20px;
+  
   
 }
