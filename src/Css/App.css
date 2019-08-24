@@ -29,15 +29,12 @@
 .App .ant-layout-content {
   padding: 0px 15px;
   background: #fff ;
-  height:65%; 
-  
- 
-  
+  height:45%;   
 }
 
 .App .ant-layout-footer{
   background: #fff; 
-  height:5%;
+  height:25%;
 
 }
 
@@ -48,4 +45,3 @@
   height:100%;
 
 }
-

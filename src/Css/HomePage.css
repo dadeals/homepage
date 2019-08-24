@@ -1,5 +1,6 @@
 .welcome{
     text-align: center;
+    height: 65%;
     
 }
 
@@ -21,5 +22,10 @@
 .welcome .content .contentPic{ 
   font-size: 20px;
   
+  
+}
+
+.welcome .footerMap{
+  top:-250px;
   
 }

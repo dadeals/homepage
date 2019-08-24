@@ -47,6 +47,7 @@ class App extends React.Component {
 
     return (
       <Router>
+        
         <div className = "App" >
         <Layout className="layout">
           <Header>
@@ -66,9 +67,8 @@ class App extends React.Component {
               <Menu.Item key="1" ><Link to= "/"><img src = {logo} style={{  width: 102, height: 35, lineHeight: '64px' }} /></Link></Menu.Item>
               <Menu.Item key="2"><Link to= "/ProductList">ProductList</Link></Menu.Item>
               <Menu.Item key="3" onClick={this.showDrawer}>Contact</Menu.Item>
-              
             </Menu>
-
+            
             <div className= "wrap">
               <Route path="/" exact component={HomePage} />
               <Route path="/ProductList/" component={ProductList} />
@@ -82,15 +82,13 @@ class App extends React.Component {
               closable={false}
               onClose={this.onClose}
               visible={this.state.visible}
-            >
+          >
               <Contact></Contact>
-            </Drawer>
-          
-          
-        </Layout>
-
+          </Drawer>
         
-      </div>
+        </Layout>
+        </div>
+        
       </Router>
     );
   }

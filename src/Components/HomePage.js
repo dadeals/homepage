@@ -1,4 +1,5 @@
 import React from 'react';
+import Map from './MapContainer';
 import { Typography } from 'antd';
 import '../Css/HomePage.css';
 
@@ -21,10 +22,10 @@ const content = (
       <Text strong> handmade necklaces $25 - $30</Text>
       <br></br>
       <img
-      src= {require('../Pics/necklaces.jpg')}
-      alt="content"
-      style={{ width: 240 }}
-    />
+        src= {require('../Pics/necklaces.jpg')}
+        alt="content"
+        style={{ width: 240,  marginLeft: 'auto', marginRight: 'auto', }}
+      />
     </div>
     
   );
@@ -62,7 +63,11 @@ class Homepage extends React.Component {
                   <div className="extraContent">{extraContent}</div>
                   
             </div>
-                
+            <br></br>
+            <div className = 'footerMap'>
+              <Map></Map>
+            </div>
+
       </div>
 
 
