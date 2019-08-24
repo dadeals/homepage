@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.0ba4003d.chunk.css",
-    "main.js": "/static/js/main.7f2fa9c9.chunk.js",
-    "main.js.map": "/static/js/main.7f2fa9c9.chunk.js.map",
+    "main.css": "/static/css/main.2ce657b8.chunk.css",
+    "main.js": "/static/js/main.a540cb0c.chunk.js",
+    "main.js.map": "/static/js/main.a540cb0c.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
     "static/css/2.676dc204.chunk.css": "/static/css/2.676dc204.chunk.css",
-    "static/js/2.7fd31a83.chunk.js": "/static/js/2.7fd31a83.chunk.js",
-    "static/js/2.7fd31a83.chunk.js.map": "/static/js/2.7fd31a83.chunk.js.map",
+    "static/js/2.e69d48b5.chunk.js": "/static/js/2.e69d48b5.chunk.js",
+    "static/js/2.e69d48b5.chunk.js.map": "/static/js/2.e69d48b5.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.e9a9ae86da9dd71b7859e85354f89623.js": "/precache-manifest.e9a9ae86da9dd71b7859e85354f89623.js",
+    "precache-manifest.33240c197a2b5c6ece1dd7f83841aa5c.js": "/precache-manifest.33240c197a2b5c6ece1dd7f83841aa5c.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.676dc204.chunk.css.map": "/static/css/2.676dc204.chunk.css.map",
-    "static/css/main.0ba4003d.chunk.css.map": "/static/css/main.0ba4003d.chunk.css.map",
+    "static/css/main.2ce657b8.chunk.css.map": "/static/css/main.2ce657b8.chunk.css.map",
     "static/media/Fhat40.jpg": "/static/media/Fhat40.090f71da.jpg",
     "static/media/beads8each3pack20.jpg": "/static/media/beads8each3pack20.a109d437.jpg",
     "static/media/coffincover49-225.jpg": "/static/media/coffincover49-225.32e836ef.jpg",
@@ -26,8 +26,8 @@
     "static/media/perfume5-20.jpg": "/static/media/perfume5-20.113d07d8.jpg",
     "static/media/plasticflower2-5-15-0.jpg": "/static/media/plasticflower2-5-15-0.8e685bd0.jpg",
     "static/media/ribbens2-0-2-5.jpg": "/static/media/ribbens2-0-2-5.060dff8c.jpg",
+    "static/media/App.css": "/static/media/shopfront.a7a58e95.jpg",
     "static/media/test_pic1.jpg": "/static/media/test_pic1.aa623565.jpg",
-    "static/media/test_pic2.jpg": "/static/media/test_pic2.0d9f3c3d.jpg",
-    "static/media/App.css": "/static/media/testfront.ac46ebbc.jpg"
+    "static/media/test_pic2.jpg": "/static/media/test_pic2.0d9f3c3d.jpg"
   }
 }
