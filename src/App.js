@@ -6,7 +6,7 @@ import logo from './Pics/logo307105.jpg';
 
 import './Css/App.css';
 import 'antd/dist/antd.css';
-import { Layout, Menu, Drawer, Button} from 'antd';
+import { Layout, Menu, Drawer} from 'antd';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 const { Header, Content, Footer } = Layout;
