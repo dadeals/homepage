@@ -10,9 +10,9 @@ class contact extends React.Component {
         return (
             <Descriptions  layout="horizontal">
                 <Descriptions.Item label="OwnerName">Cathy Cao</Descriptions.Item>
-                <Descriptions.Item label="Contact Number">04 5770177</Descriptions.Item>
+                <Descriptions.Item label="Contact Number">04 260 0026</Descriptions.Item>
                 <Descriptions.Item label="Address">
-                3 Hillary Court, Naenae, Lower Hutt
+                4 Hillary Court, Naenae, Lower Hutt
                 </Descriptions.Item>
             </Descriptions>
                     );
